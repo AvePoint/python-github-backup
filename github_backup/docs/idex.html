@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>python-github-backup</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <h1>python-github-backup</h1>
+    <div class="section">
+        <p><strong>python-github-backup</strong> is a command-line tool to backup your entire GitHub account, including repositories, issues, pull requests, releases, wikis, gists, and more. It is designed for disaster recovery, migration, and archiving purposes.</p>
+    </div>
+    <div class="section">
+        <h2>Features</h2>
+        <ul>
+            <li>Backup all repositories (including private, forks, and gists)</li>
+            <li>Backup issues, pull requests, releases, labels, milestones, and hooks</li>
+            <li>Backup repository wikis and GitHub Pages content (gh-pages branch)</li>
+            <li>Incremental and full backup modes</li>
+            <li>Support for personal, organization, and GitHub Enterprise accounts</li>
+            <li>Flexible authentication (token, OAuth, username/password, keychain)</li>
+            <li>JSON output for metadata and configuration</li>
+        </ul>
+    </div>
+    <div class="section">
+        <h2>Usage Example</h2>
+        <pre><code>github-backup &lt;username&gt; --token &lt;your_token&gt; --repositories --issues --pulls --releases --wikis --gists --output-directory ./backup</code></pre>
+        <p>See the <code>README.rst</code> for full usage instructions and options.</p>
+    </div>
+    <div class="section">
+        <h2>Project Links</h2>
+        <ul>
+            <li><a href="../..">Source Code</a></li>
+            <li><a href="../../README.rst">README</a></li>
+        </ul>
+    </div>
+    <footer>
+        <hr>
+        <p>&copy; 2025 AvePoint. Project: python-github-backup</p>
+    </footer>
+</body>
+</html>
